@@ -9,8 +9,6 @@ namespace NP_ChatGptApi
 {
     public class ChatCompletionContent
     {
-        public string Model { get; set; } = "gpt-3.5-turbo";
-        public string Role { get; set; } = "user";
         public string Content { get; set; }
 
         public override string ToString()
